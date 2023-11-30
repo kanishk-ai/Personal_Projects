@@ -1,0 +1,149 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@media all and (max-width:791px){
+.box-flex{
+    flex-wrap: nowrap;
+    margin-top: 636px;
+}
+    
+}
+  * {
+      margin: 0px;
+      padding: 0px;
+  }
+
+  .container {
+      display: flex;
+
+      justify-content: center;
+      margin-top: 10px;
+  }
+
+  .data {
+
+      padding: 20px 20px 0px 10px;
+      font-size: 15px;
+      font-family: 'Poppins', sans-serif;
+  }
+
+  .logo {
+      height: 54px;
+      /* margin-right: 55vw; */
+      padding: 4px 0px 0px 0px;
+  }
+
+  :nth-child(7) {
+      height: 50px;
+      margin-top: 4px;
+  }
+
+  .space {
+      width: 500px;
+  }
+
+  h1 {
+      display: inline;
+  }
+
+  .body-box {
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      font-family: 'poppins';
+      flex-wrap: wrap;
+      align-content: center;
+      line-height: 60px;
+  }
+  h1,review{
+    margin: 30px;
+    align-items: flex-start;
+    
+    
+  }
+  .review{
+    padding-top: 2px;
+  }
+.content-1{
+    font-size: 25px;
+    font-family: 'poppins';
+}
+.body-but{
+    font-weight: 10000000px;
+    padding: 15px;;
+    border-radius: 10px;
+    font-family: 'poppins';
+    color:#ffff;
+    background-color:#00b6d1 ;
+    font-size: 15px;
+    margin-top: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.body-but:hover{
+    
+    background-color:rgb(111, 183, 194)
+}
+.box-flex{
+    height: 1000px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.box-0{
+    height: 105px;
+    width: 300px;
+    background-color:rgb(243, 240, 237);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'poppins';
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 30px;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 20px;
+    
+}
+.bot-box{
+    display: flex;
+    flex-direction: row;
+    gap:30px
+}
+.bot-1,.bot-2{
+    height: 40px;
+    width: 150px;
+    background-color: #00b6d1;
+    color: white;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.box-1:hover{
+    background-color: #000000;
+}
+.bot-2{
+ background-color: rgb(72, 170, 72);
+}
+.bot-2:hover{
+    background-color: rgb(129, 161, 129);
+
+}
+svg{
+    height: 15px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
