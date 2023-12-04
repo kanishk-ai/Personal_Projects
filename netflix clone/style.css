@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins';
+    text-decoration: aliceblue;
+    color: white;
+
+
+}
+
+nav {
+    width: 91vw;
+    margin: auto;
+    /* margin-left: 140PX; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 5;
+}
+
+#logo {
+    height: 40px;
+}
+
+.but,
+.ge-t {
+    height: 30px;
+    width: 90px;
+    background-color: red;
+    color: white;
+    border: red;
+    border-radius: 5px;
+}
+
+#sel-nav {
+    background-color: black;
+}
+
+.container {
+    height: 90vh;
+    width: 100%;
+    border: 2px solid;
+    background-image: url(assts/images/netflixrainbow.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+
+}
+
+#opca {
+    background-color: black;
+    height: 91vh;
+    position: relative;
+    z-index: 3;
+    opacity: .8;
+    object-fit: cover;
+    width: 200%;
+
+}
+
+.content {
+    height: 80%;
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+    z-index: 4;
+    margin-left: 70px;
+    position: relative;
+    opacity: 1;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#email {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.ge-t {
+    width: 180px;
+    height: 55px;
+    font-size: 25px;
+}
+
+
+.last-box {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.icon-e {
+    height: 20px;
+}
+
+.last-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.last {
+    display: flex;
+
+}
+
+@media all and (max-width: 390px) {
+    .contant {
+        margin-left: 2px;
+    }
+}
+
+.body {
+    height: 500vh;
+    background-color: black;
+}
+
+.pan-con {
+    width: 75vw;
+    margin: auto;
+    height: 250px;
+    line-height: 43px;
+    margin-bottom: 90px;
+}
+
+.box-pan {
+    width: 250px;
+    height: 230px;
+
+    background-color: rgb(134, 87, 72);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+#box-plan {
+    display: flex;
+    gap: 20px;
+}
+
+.q-box {
+    display: flex;
+    width: 900px;
+    height: 70px;
+    background-color: #3c3a3a;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#ques {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-self: center;
+    align-items: center;
+}
+
+#ques-con {
+    display: flex;
+    justify-content: center;
+}
+
+#head-q-box {
+    display: flex;
+    align-self: flex-start;
+}
