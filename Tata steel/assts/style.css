@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0px;
+    padding:0px;
+    
+    background-repeat: no-repeat;
+    object-fit: fill;
+    background-size:100vw 100vh;
+    font-family: 'open sans';
+    font-weight: normal;
+}
+.nav-back{
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    opacity: .41;
+    height: 87px;
+    width: 100vw;
+}
+nav{
+    height: 87px;
+    position: fixed;
+    width: 97vw;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.fir{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left:20px ;
+    margin-top: 2px;
+    position: relative;
+}
+.logo{
+    height: 30px;
+}
+.svg-4{
+    height: 20px;
+}
+.svg-cont{
+    display: flex;
+    gap: 20px;
+    justify-self: center;
+    align-items: center;
+    align-content: center;
+
+}
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.svg-large{
+    height: 40px;
+}
+#tata-logo{
+    height: 40px;
+    display: flex;
+    align-self: last baseline;
+
+}
+#nav-home{
+    display: flex;
+    gap: 5px;
+    color: white;
+    height: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.bodyy-1{
+    height: 100vh;
+   background-image:url(images/global_presence_mobile_bg2.jpg);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   flex-direction: column;
+   gap:100px
+}
+.country-cont{
+    display: flex;
+    gap: 200px;
+    margin-bottom: 170px;
+    
+.box-country{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+}
+.bodyy-2{
+    height: 100vh;
+}
+@keyframe text-animation {
+    form{
+           
+    }
+    to{
+       transform:translateX(500px);
+    }
+}
+.text{
+    animation-name: text-animation ;
+    animation-duration: 1s;
+}
